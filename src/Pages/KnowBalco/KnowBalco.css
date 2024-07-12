@@ -1,0 +1,10 @@
+/* PRODUCTS CSS */
+
+.products-wrapper .col-md-3{
+    margin: 1.5% 0;
+    padding: 10px;
+}
+.products-wrapper .col-md-3 img{
+    width: 100%;
+    height: 90%;
+}

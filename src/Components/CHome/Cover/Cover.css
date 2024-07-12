@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+}
+
+.home-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(4, 187, 4, 0.2), white);
+    height: 90vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.inner-hero {
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.inner-hero img {
+    width: 100%;
+}
+
+.title-wrapper {
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.themeline {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 700;
+    color: rgb(0, 89, 137);
+}
+
+.subline {
+    font-size: 30px;
+    color: rgb(112, 115, 117);
+    margin: 0;
+}
+
+/* RESPONSIVE CSS START */
+@media (max-width: 1200px) {
+    .themeline {
+        font-size: 50px;
+    }
+    .subline {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .themeline {
+        font-size: 40px;
+    }
+    .subline {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .themeline {
+        font-size: 35px;
+    }
+    .subline {
+        font-size: 18px;
+    }
+    .home-banner {
+        height: auto;
+        padding-top: 10vh;
+    }
+    .title-wrapper {
+        position: static;
+        margin: 2% 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .themeline {
+        font-size: 30px;
+    }
+    .subline {
+        font-size: 16px;
+    }
+    .home-banner {
+        height: auto;
+        padding-top: 12vh;
+    }
+    .title-wrapper {
+        position: static;
+        margin: 2% 0 8%;
+    }
+    .inner-hero {
+        width: 100%;
+    }
+}
+/* RESPONSIVE CSS END */

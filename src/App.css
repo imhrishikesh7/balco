@@ -1,0 +1,164 @@
+.marginal{
+    width: 86%;
+    margin: 2% auto;
+}
+.text-green {
+    color: rgb(4, 187, 4);
+}
+
+.text-blue {
+    color: rgb(0, 89, 137);
+}
+.text-skyblue{
+  color: skyblue;
+}
+.text-orange{
+  color: orange;
+}
+.blue-grad-bg{
+  background-image: linear-gradient(to right, #0e4d7f, #0093d2);
+}
+.bg-profiles{
+  background-color: #f7fcfe;
+}
+.bg-purple{
+  background: linear-gradient(to bottom, #e3e6f1, #fff);
+}
+.bg-orange{
+  background: linear-gradient(to bottom, #fdf0e2, #fff);
+}
+.bg-lorange{
+  background-color: rgb(255, 165, 0, 0.2);
+}
+.bg-patch{
+  background-color: rgb(135, 206, 235, 0.07);
+}
+.bg-green{
+  background: linear-gradient(to bottom, #eaf6f5, #fff);
+}
+.bg-green-inv{
+  background: linear-gradient(to top, #eaf6f5, #fff);
+}
+.grey-bg{
+  background: linear-gradient(to left, #a5cfed, #fff);
+  /* background: rgb(128, 128, 128, 0.1); */
+  padding-top: 1%;
+}
+.cap-cov-2 {
+  width: 90%;
+  margin: auto;
+  height: 50vh;
+  overflow: hidden; /* Ensures the image does not overflow the container */
+}
+
+.cap-cov-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+}
+
+.top-spacer{
+  padding: 5% 0 0;
+}
+.flex{
+    display: flex;
+}
+.w-icon {
+    width: 10%;
+  }
+.w-icon3 {
+    width: 6%;
+  }
+  .w-icon2 {
+    width: 20%;
+  }
+
+    /* *************************************************** */
+    .linka {
+      text-decoration: none;
+      color: #0093d2;
+      width: 220px;
+      z-index: 11;
+      display: inline-block; /* Ensure the link is displayed as an inline-block */
+      /* height: 50px; */
+      /* margin */
+    }
+    .lb{
+      color: #000;
+    }
+    
+    .btna {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 26px;
+      transition: all ease 0.5s;
+      letter-spacing: 3px;
+      position: relative;
+      display: inline-block; /* Ensure the button text is displayed as an inline-block */
+      padding-bottom: 5px; /* Add some padding to the bottom */
+    }
+    
+    .btna:hover {
+      transform: translateX(30px); /* Use transform for smoother animation */
+    }
+    
+    .btna:before {
+      content: "→";
+      transition: all ease 0.5s;
+      position: absolute;
+      left: -20px; /* Adjust the position */
+      opacity: 0;
+    }
+    
+    .btna:hover:before {
+      left: -35px; /* Move arrow to the left on hover */
+      opacity: 1;
+    }
+    
+    .btna:after {
+      content: "";
+      border-bottom: 2px solid #0093d2;
+      width: 0;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all ease 0.5s;
+    }
+    .bb:after{
+      border-bottom: 2px solid #000;
+  
+    }
+    .btna:hover:after {
+      width: 100%;
+    }
+    /* *************************************************** */
+  
+  @media (max-width: 768px) {
+    .w-icon {
+      width: 25%;
+    }
+    h1 {
+      font-size: 2.5rem !important; /* Adjust the font size for tablets */
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+    .w-icon {
+      width: 30%;
+    }
+    .w-icon2 {
+      width: 15%;
+    }
+    .w-icon3 {
+      width: 10%;
+    }
+    .top-spacer{
+      padding: 20% 0 0;
+    }
+    h1 {
+      font-size: 2rem !important; /* Adjust the font size for mobile devices */
+    }
+  }
+  

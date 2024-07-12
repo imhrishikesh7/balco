@@ -1,0 +1,104 @@
+.cov2{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 4% 4% 15%;
+    background-image: linear-gradient(to right, #0e4d7f, #0093d2);
+}
+.cov2 h1{
+    font-size: 90px;
+}
+.cov2 h2{
+    font-size: 50px;
+}
+.cov2-wrapper{
+    width: 60%;
+    margin: auto;
+    align-items: end;
+
+}
+.cov2-l{
+    width: 65%;
+}
+.cov2-r{
+    width: 35%;
+}
+.cov2-growth{
+    bottom: -20%;
+}
+
+.map-desc{
+    position: absolute;
+    width: 20%;
+    padding: 1.5%;
+    /* right: 0; */
+    top: 70%;
+}
+.map-callout-row{
+    /* position: static; */
+    background: linear-gradient(to right, #daf0ff, #fff);
+    margin-top: 5%;
+    padding: 1%;
+    z-index: 1;
+}
+
+
+  .carousel-item img {
+    object-fit: cover;
+
+  }
+ .carousel-caption{
+    position: absolute;
+    top: 0;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+ }
+ .linka2{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+  .marquee-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0; /* No extra margin */
+  }
+  
+  .marquee-image {
+    width: 80%; /* Responsive width */
+    border-radius: 8px;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    margin-bottom: 5px; /* Spacing between image and text */
+  }
+  
+  .marquee-text {
+    font-size: 14px; /* Adjust text size as needed */
+    text-align: center;
+  }
+
+  
+/* RESPONSIVE CSS START */
+@media (max-width: 500px) {
+    .cov2 h1{
+        font-size: 30px;
+    }
+    .cov2 h2{
+        font-size: 20px;
+    }
+    .map-desc{
+        width: 100%;
+        padding: 2%;
+        top: 80%;
+        position: static;
+    }
+    .carousel-caption{
+        font-size: 10px;
+        top: -12%;
+     }
+      .linka2{
+display: none;
+     }
+}

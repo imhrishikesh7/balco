@@ -1,0 +1,12 @@
+/* Optional CSS adjustments */
+.card-img-top{
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 992px) {
+    .col-lg-4 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  
